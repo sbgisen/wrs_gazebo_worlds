@@ -11,7 +11,7 @@ The `wrs_gazebo_worlds` ROS package provides a collection of Gazebo worlds and m
 
 ## Installation 
 ```shell
-ssh git@github.com:sbgisen/wrs_gazebo_worlds
+git clone git@github.com:sbgisen/wrs_gazebo_worlds
 cd wrs_gazebo_worlds
 git lfs pull
 catkin build wrs_gazebo_worlds
