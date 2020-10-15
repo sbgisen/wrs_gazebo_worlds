@@ -11,6 +11,11 @@
   <author email="lotfi.elhafi@em.ci.ritsumei.ac.jp">Lotfi El Hafi</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <depend>gazebo_ros</depend>
 
-  <export></export>
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}/worlds" />
+    <gazebo_ros gazebo_model_path="${prefix}/models" />
+  </export>
+
 </package>
